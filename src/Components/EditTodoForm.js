@@ -14,9 +14,10 @@ const EditTodoForm = ({ todo, editTodo }) => {
       <input
         type="text"
         value={updatedText}
+        className='update-input'
         onChange={(e) => setUpdatedText(e.target.value)}
       />
-      <button type="submit">Update</button>
+      <button type="submit" className='update'>Update</button>
     </form>
   );
 };

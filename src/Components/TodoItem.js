@@ -15,13 +15,14 @@ const TodoItem = ({ todo, deleteTodo, editTodo }) => {
 
   return (
     <div>
+        
       {isEditing ? (
         <EditTodoForm todo={todo} editTodo={handleEdit} />
       ) : (
         <>
-          <span>{todo.text}</span>
-          <button onClick={() => setIsEditing(true)}>Edit</button>
-          <button onClick={handleDelete}>Delete</button>
+          <span className='todo-text'>{todo.text}</span>
+          <button onClick={() => setIsEditing(true)}className='edit'>Edit</button>
+          <button onClick={handleDelete} className='delete'>Delete</button>
         </>
       )}
     </div>

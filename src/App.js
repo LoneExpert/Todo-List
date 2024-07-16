@@ -37,7 +37,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Todo App</h1>
+      <h1 className='title'>A SIMPLE TODO APP</h1>
       <AddTodoForm addTodo={addTodo} />
       <TodoList todos={todos} deleteTodo={deleteTodo} editTodo={editTodo} />
     </div>

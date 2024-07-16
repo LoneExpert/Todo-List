@@ -3,7 +3,8 @@ import TodoItem from './TodoItem';
 
 const TodoList = ({ todos, deleteTodo, editTodo }) => {
   return (
-    <div>
+    <div className='list'>
+        <p className='text-title'>All added text will show here...</p>
       {todos.map(todo => (
         <TodoItem
           key={todo.id}
@@ -13,7 +14,7 @@ const TodoList = ({ todos, deleteTodo, editTodo }) => {
         />
       ))}
     </div>
-  );
+  );    
 };
 
 export default TodoList;

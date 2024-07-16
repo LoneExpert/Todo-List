@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+*{
+ margin: none; 
+ padding: none; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-text{
+  width: 50%;
+  height: 35px;
+  border: none;
+  margin-top: 30px;
+  margin-left: 30px;
+  outline: none;
+  border-radius: 15px;
+  padding-left: 10px;
+  font-size: 12px;
+  background-color: rgb(214, 133, 35);
+  color: #fff;
+} 
+
+.update-input{
+  width: 50%;
+  margin-left: 25px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 12px;
+  background-color: rgb(214, 133, 35);
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::placeholder{
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.add{
+  border: none;
+  outline: none;
+  background-color:#10FB7C;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 5px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit{
+  border: none;
+  border: none;
+  outline: none;
+  background-color:#10FB7C;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 5px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.delete{
+  border: none;
+  border: none;
+  outline: none;
+  background-color:#10FB7C;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 5px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  
+}
+
+.update{
+  border: none;
+  border: none;
+  outline: none;
+  background-color:#10FB7C;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 5px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.todo-text{
+  font-size: 20px;
+  padding-left: 40px;
+  border-right: 2px solid black;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.list{
+  padding: 10px;
+}
+.text-title{
+  font-size: 20px;
+  font-weight:bold;
+  padding-left: 30px;
 }
